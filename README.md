@@ -1,2 +1,5 @@
 # MyPhotos
-Organize your photos
+Organize your photos.
+
+Check duplicates, etc, etc :)
+
