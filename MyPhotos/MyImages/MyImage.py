@@ -48,6 +48,9 @@ class MyImage(object):
                     elif TAGS.get(tag, tag) == 'GPSInfo':
                         self._gps_info = value
 
+        elif type == 'PNG':
+            print "Not yet implemented"
+
     def __unicode__(self):
         return "{}: {}, datetime: {}, original: {}, digitized: {}, preview: {}, GPS: {}".format(self._file_name,
                                                                                                   self._type,
