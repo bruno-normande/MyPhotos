@@ -32,7 +32,7 @@ class MyImage(object):
         self._type = type
         self._file_name = os.path.basename(im_path)
 
-        if type == 'JPEG':
+        if type == 'JPEG': #TODO: use strategy pattern
             info = self._im._getexif()
             # print info
             if info : #TODO: what to do if has no info

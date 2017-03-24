@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+#PyDev Project
+.idea/*
+
+#Finder files
+.DS_Store

@@ -29,7 +29,7 @@ class Traverser(object):
                 file_path = os.path.join(dirName, file)
                 type = magic.from_file(file_path).split()[0]
                 if type == 'JPEG':
-                    print 'imagem:', file
+                    # print 'imagem:', file
                     im = MyImage(file_path, type)
                 else:
                     not_sup.append(file_path)
