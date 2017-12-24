@@ -14,6 +14,9 @@ from MyPhotos.core.Traverser import Traverser
 
 
 def main(argv):
+    #TODO: add main options: organize and finddup
+    # first one should copy photos to a new directory and organize by date
+    # the other should search for duplicates in a directory
     parser = argparse.ArgumentParser(description='Organize your photos and find duplicates')
     parser.add_argument('source', help='Source folder of your images', default='.')
     parser.add_argument('dest', help='Destination folder of your images', default='MyPhotos', nargs='?')
